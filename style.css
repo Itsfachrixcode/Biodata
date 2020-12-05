@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 80%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* 
+Custom Setings
+*/
+body { background: #E9E5E2 ; }
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+width: 70px;
+}
+
+.list-drop{
+  display: none;
+  position: absolute;
+  float: none;
+  z-index: 1;
+  margin-left: 102px;
+  margin-top: 45px;
+}
+
+.list-drop li a{
+  color: #f2f2f4;
+  background: #334;
+}
+.drop:hover .list-drop{
+  display: block;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+
+.topnav-right {
+float: right;
+}
+table ,tr,td{
+  padding-left: 10px;
+  padding-right:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 1px;
+}
+table{
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+.table-bio p{
+  text-align: justify-all;
+
+  padding-bottom: 3px
+}
+.table-bio, .table-bio tr td{
+  padding: 0;
+  text-align: left;
+}
+.table-bio{
+  margin-left: -2px;
+  margin-top: -5px
+}
+
+.bold{
+  font-size: 20px;
+  text-decoration: underline;
+  color:brown;
+}
+
+.bold-span{
+  font-weight: bold;
+}
+
+.miring{
+  font-style: italic;
+}
+.center{
+  text-align: center;
+}
+img {margin-left:10px;width: 150px; height:  200px}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+  
+.full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.first-name {
+  font-weight: 700;
+}
+.last-name {
+  font-weight: 300;
+}
+.mg-bottom{
+  margin-bottom: 10px;
+}
+.mg-top{
+  margin-top:50px;
+}
+#skill { 
+  list-style: none;
+  font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  width: 240px;
+  position: relative;
+  line-height: 2em;
+  padding: 2px 0;
+}
+
+.skill-ubah{
+  margin-top: 2px;
+  display: block;
+  margin-bottom: 15px;
+}
+.ubah-leangue{
+    vertical-align: top;
+  }
+
+#skill li { 
+  margin-bottom:18px; 
+  background:#e9e5e2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+  background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+  height:20px; 
+  border-radius:10px; 
+  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;   
+  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;  
+  box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;   
+}
+
+#skill li h3 { 
+  position:relative; 
+  top:-20px;
+}
+
+.bar { 
+  height:18px; 
+  position:absolute;
+  border-radius:10px;
+  -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+  -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;  
+  box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;   
+}
+
+.graphic-design {
+  width:20%; 
+  -moz-animation:graphic-design 2s ease-out;
+  -webkit-animation:graphic-design 2s ease-out;
+  background-color: #f674a4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+  background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+  background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+  background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+  background-image: -o-linear-gradient(top, #f674a4, #e06995);
+  background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.html-css {
+  width:50%;
+  -moz-animation:html-css 2s ease-out;
+  -webkit-animation:html-css 2s ease-out;
+  background-color: #f0bb4b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+  background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.javascript {
+  width:80%;
+  -moz-animation:javascript 2s ease-out;
+  -webkit-animation:javascript 2s ease-out;
+  background-color: #a1ce5b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+  background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes javascript      { 0%  { width:0px;} 100%{ width:65%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:20%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes javascript      { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@media only screen and (max-width: 768px) {
+  .mengubah{
+    display: inline-block;
+  }
+  .mengubah-content{
+    overflow-wrap: break-word;
+    max-width: 100px;
+  } 
+}
