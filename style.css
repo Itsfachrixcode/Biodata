@@ -234,7 +234,7 @@ img:hover {
 @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:50%;}  }
 @-webkit-keyframes javascript      { 0%  { width:0px;} 100%{ width:80%;}  }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 540px) {
   .mengubah{
     display: inline-block;
   }
@@ -243,7 +243,6 @@ img:hover {
     max-width: 100px;
   } 
   .container{
-    margin-top: 300px;
     margin-top: 300px;
   }
 }
