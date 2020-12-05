@@ -19,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 80%;
+  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -242,4 +242,8 @@ img:hover {
     overflow-wrap: break-word;
     max-width: 100px;
   } 
+  .container{
+    margin-top: 300px;
+    margin-top: 300px;
+  }
 }
