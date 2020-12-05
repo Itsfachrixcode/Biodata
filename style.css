@@ -46,9 +46,14 @@ q:before, q:after {
 /* 
 Custom Setings
 */
-body { background: #E9E5E2 ; }
+body { 
+  background: url(background.jpg) ; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -74,7 +79,7 @@ width: 70px;
 
 .list-drop li a{
   color: #f2f2f4;
-  background: #334;
+  background:rgb(162,10,10,0.4);
 }
 .drop:hover .list-drop{
   display: block;
@@ -87,7 +92,7 @@ color: black;
 
 
 .topnav a.active {
-background-color: #4CAF50;
+background:rgb(162,10,10, 0.7);
 color: white;
 }
 
@@ -95,15 +100,27 @@ color: white;
 .topnav-right {
 float: right;
 }
+
+.container{
+  width: 90%;
+  background: #a20a0a;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:   35px;
+  margin-bottom: 35px;
+  padding:10px;
+  background:rgb(162,10,10,0.4);
+}
 table ,tr,td{
-  padding-left: 10px;
-  padding-right:10px;
+  padding-left: 1px;
+  padding-right:1px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-top: 1px;
 }
 table{
   margin-left: auto;
   margin-right:  auto;
+  color: #DCDCDC;
 }
 
 .table-bio p{
@@ -120,10 +137,12 @@ table{
   margin-top: -5px
 }
 
+
 .bold{
   font-size: 20px;
   text-decoration: underline;
-  color:brown;
+  color:black;
+  font-weight: bold;
 }
 
 .bold-span{
@@ -153,6 +172,12 @@ img:hover {
 }
 .last-name {
   font-weight: 300;
+}
+.full-name, .desc, .desc-full{
+  color:black;
+}
+.desc, .desc-full{
+  font-size: 17px;
 }
 .mg-bottom{
   margin-bottom: 10px;
