@@ -173,7 +173,7 @@ img:hover {
 .last-name {
   font-weight: 300;
 }
-.full-name, .desc, .desc-full{
+.full-name{
   color:black;
 }
 .desc, .desc-full{
