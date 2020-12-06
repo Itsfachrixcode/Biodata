@@ -72,7 +72,7 @@ table{
   margin-right:  auto;
   color: #DCDCDC;
   padding-top: 30px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
 
 .table-bio p{
@@ -234,7 +234,19 @@ img:hover {
 @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:50%;}  }
 @-webkit-keyframes javascript      { 0%  { width:0px;} 100%{ width:80%;}  }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 440px) {
+  .mengubah{
+    display: inline-block;
+  }
+  .mengubah-content{
+    overflow-wrap: break-word;
+    max-width: 100px;
+  } 
+  .container{
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 640px) {
   .mengubah{
     display: inline-block;
   }
